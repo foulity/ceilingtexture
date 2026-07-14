@@ -93,7 +93,22 @@ ul{list-style:none;display:grid;gap:14px;margin-top:18px}li:before{content:"✓"
 .form-note{font-size:13px!important;color:#aaa!important;margin-top:14px!important;margin-bottom:0!important}
 @media(max-width:900px){.quote-form{grid-template-columns:1fr}.form-card{padding:30px 20px}}
 
-@media(max-width:900px){body{padding-bottom:82px}.mobile-call{display:flex}.links{display:none}.hero-grid,.split{grid-template-columns:1fr}.visual{min-height:470px}.services{grid-template-columns:1fr}.stats{grid-template-columns:1fr}h1{letter-spacing:-2px}}
+@media(max-width:900px){
+body{padding-bottom:82px}
+.mobile-call{display:flex}
+.nav-in{height:auto;min-height:96px;padding:10px 0;flex-wrap:wrap}
+.brand{flex:1 1 auto}
+.links{display:flex;width:100%;order:3;gap:8px;overflow-x:auto;padding:0 0 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.links::-webkit-scrollbar{display:none}
+.links a:not(.nav-cta){flex:0 0 auto;padding:10px 14px;font-size:13px;white-space:nowrap}
+.links .nav-cta{display:none}
+.hero{padding-top:190px}
+.hero-grid,.split{grid-template-columns:1fr}
+.visual{min-height:470px}
+.services{grid-template-columns:1fr}
+.stats{grid-template-columns:1fr}
+h1{letter-spacing:-2px}
+}
 </style>
 </head>
 <body>
